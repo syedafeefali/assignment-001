@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "regional-capital-app"
+client_id = "3109bb2c3a7a2783a0572361a5dfd0a6"
+application_url = "https://troubleshooting-rubber-biotechnology-option.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_products,write_products,read_script_tags,write_script_tags,read_themes,write_themes,read_orders,write_orders"
+
+[auth]
+redirect_urls = [
+  "https://troubleshooting-rubber-biotechnology-option.trycloudflare.com/auth/callback",
+  "https://troubleshooting-rubber-biotechnology-option.trycloudflare.com/auth/shopify/callback",
+  "https://troubleshooting-rubber-biotechnology-option.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "development-storee-4.myshopify.com"
