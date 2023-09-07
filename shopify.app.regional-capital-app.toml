@@ -2,7 +2,7 @@
 
 name = "regional-capital-app"
 client_id = "8a4c263f9a233d1572355bdac3e55d33"
-application_url = "https://shortcuts-mas-gmc-high.trycloudflare.com"
+application_url = "https://kerry-eagles-practical-bidder.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "read_products,write_products,read_script_tags,write_script_tags,read_t
 
 [auth]
 redirect_urls = [
-  "https://shortcuts-mas-gmc-high.trycloudflare.com/auth/callback",
-  "https://shortcuts-mas-gmc-high.trycloudflare.com/auth/shopify/callback",
-  "https://shortcuts-mas-gmc-high.trycloudflare.com/api/auth/callback"
+  "https://kerry-eagles-practical-bidder.trycloudflare.com/auth/callback",
+  "https://kerry-eagles-practical-bidder.trycloudflare.com/auth/shopify/callback",
+  "https://kerry-eagles-practical-bidder.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
